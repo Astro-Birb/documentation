@@ -56,9 +56,9 @@
     {
       "group": "configuration",
       "pages": [
-        "/configuration/beginner",
-        "/configuration/permissions",
-        "/configuration/variables"
+        "configuration/beginner",
+        "configuration/permissions",
+        "configuration/variables"
 
 
       ]
