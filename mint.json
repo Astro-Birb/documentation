@@ -56,7 +56,7 @@
     {
       "group": "Configuration",
       "pages": [
-        "configuration/beginner",
+        "/configuration/beginner",
         "/configuration/permissions",
         "/configuration/variables"
 
@@ -66,14 +66,14 @@
     {
       "group": "Modules",
        "pages": [
-        "modules/infractions",
-        "modules/promotions",
-        "modules/quota",
-        "modules/feedback",
-        "modules/loa",
-        "modules/suggestions",
-        "modules/reports",
-        "modules/modmail",
+        "Modules/infractions",
+        "Modules/promotions",
+        "Modules/quota",
+        "Modules/feedback",
+        "Modules/loa",
+        "Modules/suggestions",
+        "Modules/reports",
+        "Modules/modmail",
         "modules/groups",
         "modules/responder"
        ]
