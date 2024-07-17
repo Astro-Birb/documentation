@@ -54,11 +54,11 @@
       ]
     },
     {
-      "group": "Configuration",
+      "group": "configuration",
       "pages": [
-        "/Configuration/beginner",
-        "/Configuration/permissions",
-        "/Configuration/variables"
+        "/configuration/beginner",
+        "/configuration/permissions",
+        "/configuration/variables"
 
 
       ]
