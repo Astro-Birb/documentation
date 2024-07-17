@@ -54,7 +54,7 @@
       ]
     },
     {
-      "group": "configuration",
+      "group": "Configuration",
       "pages": [
         "configuration/beginner",
         "configuration/permissions",
