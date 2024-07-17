@@ -1,91 +1,86 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Astro Birb",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "images/bastrologo.svg",
+    "light": "images/bastrologo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://www.astrobirb.dev/astro-logo.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#5b65e8",
+    "light": "#5b65e8",
+    "dark": "#5b65e8",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#5b65e8",
+      "to": "#5b65e8"
     }
   },
   "topbarLinks": [
     {
+      "name": "Home",
+      "url": "https://astrobirb.dev"
+    },
+    {
+      "name": "Status",
+      "url": "https://status.astrobirb.dev"
+    },
+    {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://astrobirb.dev/support"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Invite",
+    "url": "https://discord.com/api/oauth2/authorize?client_id=1113245569490616400&permissions=429765553360&scope=bot%20applications.commands"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Support Server",
+      "icon": "Discord",
+      "url": "https://astrobirb.dev/support"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Website",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://astrobirb.dev"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Bulletin",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "Introduction",
+        "bughunting"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Configuration",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "configuration/beginner",
+        "/configuration/permissions",
+        "/configuration/variables"
+
+
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Modules",
+       "pages": [
+        "modules/infractions",
+        "modules/promotions",
+        "modules/quota",
+        "modules/feedback",
+        "modules/loa",
+        "modules/suggestions",
+        "modules/reports",
+        "modules/modmail",
+        "modules/groups",
+        "modules/responder"
+       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/DhWdgfh3hN"
   }
 }
