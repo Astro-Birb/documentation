@@ -56,9 +56,9 @@
     {
       "group": "Configuration",
       "pages": [
-        "/configuration/beginner",
-        "/configuration/permissions",
-        "/configuration/variables"
+        "/Configuration/beginner",
+        "/Configuration/permissions",
+        "/Configuration/variables"
 
 
       ]
@@ -74,8 +74,8 @@
         "Modules/suggestions",
         "Modules/reports",
         "Modules/modmail",
-        "modules/groups",
-        "modules/responder"
+        "Modules/groups",
+        "Modules/responder"
        ]
     }
   ],
