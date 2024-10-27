@@ -5,7 +5,7 @@
     "dark": "images/bastrologo.svg",
     "light": "images/bastrologo.svg"
   },
-  "favicon": "https://www.astrobirb.dev/astro-logo.svg",
+  "favicon": "/logo/astro-logo.svg",
   "colors": {
     "primary": "#5b65e8",
     "light": "#5b65e8",
@@ -72,10 +72,12 @@
         "Modules/feedback",
         "Modules/loa",
         "Modules/suggestions",
-        "Modules/reports",
         "Modules/modmail",
-        "Modules/groups",
-        "Modules/responder"
+        "Modules/responder",
+        "Modules/qotd",
+        "Modules/Staffdb",
+        "Modules/stafflist"
+        
        ]
     }
   ],
