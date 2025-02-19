@@ -1,0 +1,30 @@
+---
+title: Tickets
+description: Create and manage tickets for your server using Astro Birb.
+---
+
+> The Tickets module provides an organized and efficient system for handling user inquiries, feedback, and issues. This feature streamlines communication between staff and users, ensuring that all concerns are addressed promptly and effectively.
+
+
+<AccordionGroup>
+    <Accordion title="Variables">
+        - `{author.mention}` - The mention tag of the author of the ticket.
+        - `{author.name}` - The display name of the author of the ticket.
+        - `{time.relative}` - The time the ticket was created in a relative format.
+        - `{time.absolute}` - The time the ticket was created in an absolute format.
+        - `{ticket.id}` - The ID of the ticket.
+    </Accordion>
+</AccordionGroup>
+
+<Tabs>
+  <Tab title="Commands">
+    - **/tickets open** - Open a new ticket.
+    - **/tickets close** - Close a ticket.
+    - **/tickets add** - Add a user to a ticket.
+    - **/tickets remove** - Remove a user from a ticket.
+    - **/tickets rename** - Rename a ticket.
+    - **/tickets claim** - Claim a ticket.
+    - **/tickets unclaim** - Unclaim a ticket.
+
+  </Tab>
+</Tabs>

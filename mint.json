@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Astro Birb",
   "logo": {
-    "dark": "images/bastrologo.svg",
-    "light": "images/bastrologo.svg"
+    "dark": "/logo/astro-logo.svg",
+    "light": "/logo/astro-logo.svg"
   },
   "favicon": "/logo/astro-logo.svg",
   "colors": {
@@ -76,7 +76,8 @@
         "Modules/responder",
         "Modules/qotd",
         "Modules/Staffdb",
-        "Modules/stafflist"
+        "Modules/stafflist",
+        "Modules/tickets"
         
        ]
     }
