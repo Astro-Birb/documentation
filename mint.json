@@ -58,7 +58,8 @@
       "pages": [
         "configuration/beginner",
         "configuration/permissions",
-        "configuration/variables"
+        "configuration/variables",
+        "configuration/Intergrations"
 
 
       ]
