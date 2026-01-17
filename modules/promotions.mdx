@@ -1,0 +1,53 @@
+---
+title: Promotions
+description: Celebrate and recognize staff achievements.
+---
+
+> **Promotions** allow you to celebrate and recognize staff achievements by promoting them through a structured hierarchy of roles. This system supports three different promotion systems to fit your server's needs.
+
+
+## OG System
+
+The OG system is based on Discord roles. You can select a role while using `/promote`, and the user will be promoted to that role without any additional actions. The reverse is also true; you can demote a user by selecting a lower role.
+
+## Single Hierarchy
+
+The Single Hierarchy system allows you to create a structured hierarchy of roles. When using this system, you select roles through the `/config` command to define the hierarchy. Astro Birb will automatically put in place the correct roles regardless of the order you choose the roles while configuring. When you use `/promote`, the user will be promoted to the next role in the hierarchy.
+
+## Multi Hierarchy
+
+The Multi Hierarchy system is similar to the Single Hierarchy system but allows for multiple departments, which have their own hierarchy of roles.
+
+### Configuration
+
+<Tabs>
+  <TabItem value="Options">
+  - `System`: OG / Single Hierarchy / Multi Hierarchy
+  - `Promotion Channel`: The channel where promotion messages will be sent.
+  - `Cooldown`: The cooldown time between promotions for a user.
+  - `Webhooks`: Enable or disable webhooks for promotion messages.
+  - `Promotion Audit Log`: The channel where promotion audit logs will be sent.
+  </TabItem>
+  <TabItem value="Preferences">
+  - `Promotion Issuer Button`: A disabled button that displays the username of the issuer at the bottom of the promotion embed.
+  - `Auto Role`: Automatically roles the user the rank you specify on the promote command.
+  - `Show Issuer`: If disabled on the embeds the issuer will not be displayed. It won't work with customised embeds & it will still appear on /promotions.
+  </TabItem>
+</Tabs>
+
+<AccordionGroup>
+  <Accordion title="/promote">
+    `[user] [reason] [department]`  
+    Promote a staff member.
+  </Accordion>
+
+  <Accordion title="/promotion view">
+    `[id]`  
+    View details about a specific promotion.
+  </Accordion>
+
+  <Accordion title="/promotions">
+    `[user]`  
+    List all promotions for a specific user.
+  </Accordion>
+</AccordionGroup>

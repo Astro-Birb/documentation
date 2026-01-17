@@ -1,0 +1,52 @@
+---
+title: Message Quota
+description: Track and manage how many messages your staff members send using Astro Birb.
+---
+
+> The **Message Quota** module tracks staff activity by counting messages and displaying the results on a staff leaderboard.  
+> This creates a transparent and measurable way to monitor staff engagement.
+
+---
+
+## Options
+
+These settings control how message quotas are calculated and evaluated.
+
+- **Quota**  
+  Set the minimum number of messages staff members must send.
+
+- **Ignored Channels**  
+  Exclude specific channels from message counting.
+
+- **Role Quota**  
+  Assign different message quotas based on staff roles.
+
+- **Auto Activity**  
+  Automatically evaluate staff activity based on message counts.
+  - **Toggle**: Enable or disable automatic activity tracking
+  - **Channel**: Channel where activity results are posted
+  - **Post Date**: Date when activity results are announced
+
+---
+
+## Activity Status Values
+
+Staff members are categorized automatically based on their activity.
+
+- **Passed**: Met or exceeded the message quota
+- **Failed**: Did not meet the message quota
+- **On LOA**: Exempt from message counting due to an active Leave of Absence
+
+---
+
+<AccordionGroup>
+  <Accordion title="Commands">
+    - **/quota messages**: View your current message count  
+    - **/quota manage**: Manage staff message counts  
+    - **/staff leaderboard**: View the staff message leaderboard  
+    - **/quota reset**: Reset message counts for all staff members  
+    - **/quota export**: Export staff message data as a CSV file  
+    - **/quota activity view**: View staff activity results  
+    - **/quota activity wave**: Automatically issue infractions based on activity results
+  </Accordion>
+</AccordionGroup>

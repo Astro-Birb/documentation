@@ -1,0 +1,36 @@
+---
+title: Staff List
+description: Display your staff members in an automatically updated list.
+---
+
+> The **Staff List** module displays all staff members and their ranks in a simple, automatically updated list.  
+> Configuration is handled entirely through commands.
+
+<Info>
+**Difference from the Staff Panel:**  
+The Staff List shows a basic overview of staff members and their ranks.  
+For detailed profiles, timezones, and introductions, use the [Staff Panel](/modules/staffdb).
+</Info>
+
+## Managing Staff Ranks
+
+The Staff List uses a rank-based system. Ranks must be created before staff members can be assigned.
+
+<AccordionGroup>
+  <Accordion title="/staff list add">
+    Adds a new rank to the staff list.
+
+    **Usage:**  
+    `/staff list add [rank] [position]`
+  </Accordion>
+
+  <Accordion title="/staff list remove">
+    Removes an existing rank from the staff list.
+  </Accordion>
+
+  <Accordion title="/staff list send">
+    Sends the staff list embed to a selected channel.
+
+    This should be used **after** all ranks and staff members have been added.
+  </Accordion>
+</AccordionGroup>
