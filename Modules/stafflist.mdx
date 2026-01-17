@@ -1,17 +1,36 @@
 ---
 title: Staff List
-description: The staff list is a way off displaying all your staff on a automatically updated list.
+description: Display your staff members in an automatically updated list.
 ---
 
-![Staff List Image](https://cdn.discordapp.com/attachments/1266381421971247176/1300036302745505812/image.png?ex=671f60a8&is=671e0f28&hm=3d0b20c6d9e2fd42e363fe173fef9de29b085fa0de8e27445b9ebdb2283868ca&)
+> The **Staff List** module displays all staff members and their ranks in a simple, automatically updated list.  
+> Configuration is handled entirely through commands.
 
+<Info>
+**Difference from the Staff Panel:**  
+The Staff List shows a basic overview of staff members and their ranks.  
+For detailed profiles, timezones, and introductions, use the [Staff Panel](/modules/staffdb).
+</Info>
+
+## Managing Staff Ranks
+
+The Staff List uses a rank-based system. Ranks must be created before staff members can be assigned.
 
 <AccordionGroup>
-  <Accordion title="Commands">
-    - **/staff list send** - Sends the staff list in the channel its being used in.
-    - **/staff list add** - Adds a role + its position on the staff list.
-    - **/staff list remove** - Does the opposite.
+  <Accordion title="/staff list add">
+    Adds a new rank to the staff list.
 
+    **Usage:**  
+    `/staff list add [rank] [position]`
+  </Accordion>
 
+  <Accordion title="/staff list remove">
+    Removes an existing rank from the staff list.
+  </Accordion>
+
+  <Accordion title="/staff list send">
+    Sends the staff list embed to a selected channel.
+
+    This should be used **after** all ranks and staff members have been added.
   </Accordion>
 </AccordionGroup>

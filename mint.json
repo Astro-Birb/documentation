@@ -47,7 +47,7 @@
   ],
   "navigation": [
     {
-      "group": "Bulletin",
+      "group": "Onboarding",
       "pages": [
         "introduction",
         "bughunting"
@@ -60,25 +60,23 @@
         "configuration/permissions",
         "configuration/variables",
         "configuration/integration"
-
-
       ]
     },
     {
       "group": "Modules",
        "pages": [
-        "Modules/infractions",
-        "Modules/promotions",
-        "Modules/quota",
-        "Modules/feedback",
-        "Modules/loa",
-        "Modules/suggestions",
-        "Modules/modmail",
-        "Modules/responder",
-        "Modules/qotd",
-        "Modules/Staffdb",
-        "Modules/stafflist",
-        "Modules/tickets"
+        "modules/infractions",
+        "modules/promotions",
+        "modules/quota",
+        "modules/feedback",
+        "modules/loa",
+        "modules/suggestions",
+        "modules/modmail",
+        "modules/responder",
+        "modules/qotd",
+        "modules/staffdb",
+        "modules/stafflist",
+        "modules/tickets"
         
        ]
     }

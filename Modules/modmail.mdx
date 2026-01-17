@@ -1,20 +1,37 @@
 ---
 title: Modmail
-description: Manage communications with modmail
+description: Create a way of communication between staff and users.
 ---
 
-> Modmail allows you to directly message a server's staff team through the Astro Birb bot. You can easily choose the server you wish to contact for assistance or inquiries.
+> The **Modmail** module allows users to communicate directly with staff through a dedicated modmail system (via Astro Birb's DM's). Unlike tickets, modmails are designed for more immediate or casual communication, making it easier for users to reach out to staff members for quick questions, concerns, or reports.
 
----
+<Tabs>
+  <Tab title="Options">
+    | Option | Description |
+    | ------ | ----------- |
+    | Category | The category where modmail threads will be created. |
+    | Transcripts | The channel where modmail transcripts will be sent. |
+    | Roles | Roles that are allowed to manage and respond to modmails. |
+  </Tab>
+  <Tab title="Preferences">
+    | Option | Description |
+    | ------ | ----------- |
+    | Auto Message | Makes it so whenever you talk in the modmail channel your message automatically gets sent. |
+    | Use Messages | Make it so all the modmail messages are in messages instead of embeds. |
+    | Modmail Type | Choose between **Threaded Modmail** or **Channel Modmail**. |
+  </Tab>
+</Tabs>
 
 <AccordionGroup>
   <Accordion title="Commands">
-    - **/modmail reply** - Reply to a modmaill.
-    - **/modmail close** - Close a modmail conversation.
-    - **/modmail snippets create** - Create a modmail snippet.
-    - **/modmail snippets delete** - Delete a modmail snippet.
-    - **/modmail snippets list** - View all the modmail snippets.
-
-
+    - **/modmail reply**: Reply to a modmail.
+    - **/modmail alert**: Pings you for the next modmail message.
+    - **/modmail blacklist**: Blacklist a user from using modmail.
+    - **/modmail unblacklist**: Unblacklist a user from using modmail.
+    - **/modmail close**: Close a modmail conversation.
+    - **/modmail snippets create**: Create a modmail snippet.
+    - **/modmail snippets delete**: Delete a modmail snippet.
+    - **/modmail snippets edit**: Edit a modmail snippet.
+    - **/modmail snippets all**: View all the modmail snippets.
   </Accordion>
 </AccordionGroup>

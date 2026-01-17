@@ -2,17 +2,39 @@
 title: LOA
 description: Allow your staff to take a break!
 ---
-> This feature aids in monitoring members on Leave of Absence (LOA) and automatically sends notifications upon the conclusion of their specified absence period.
----
+
+> LOAs (Leave of Absence) allow your staff to temporarily step away from their duties without losing rank or permissions. This is useful for vacations, personal matters, or other commitments.
+
+<Tabs>
+  <Tab title="Options">
+    - **LOA Channel**: Designate a specific channel for LOA notifications and updates.
+    - **LOA Audit Channel**: Set a channel to log all LOA activity for record-keeping.
+    - **LOA Role**: Assign a role to staff members while they are on LOA.
+  </Tab>
+</Tabs>
 
 <AccordionGroup>
-  <Accordion title="Commands">
-- **/loa active** - View active leave of absences.
-- **/loa admin** - Manage the Staff’s leave of Absence 
-- **/loa manage** - Manage your Leave of Absence
-- **/loa request** - Request a Leave of Absence 
-- **/loa history** - View past Leave of Absences 
-- **/loa pending** - View pending Leave of Absences 
+  <Accordion title="/loa request">
+    Request a Leave of Absence.
+  </Accordion>
 
+  <Accordion title="/loa admin">
+    Manage a staff member’s LOA status.
+  </Accordion>
+
+  <Accordion title="/loa manage">
+    Manage your own LOA status.
+  </Accordion>
+
+  <Accordion title="/loa active">
+    View all active LOA requests.
+  </Accordion>
+
+  <Accordion title="/loa history">
+    View the history of LOA requests.
+  </Accordion>
+
+  <Accordion title="/loa pending">
+    View all pending LOA requests.
   </Accordion>
 </AccordionGroup>
