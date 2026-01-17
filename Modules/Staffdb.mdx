@@ -1,58 +1,21 @@
 ---
-title: Staff Panel (Database)
-description: Create a public or private staff panel displaying staff ranks, timezones, and details.
+title: Staff Panel
+description: Have a public/private staff panel where you can view timezone, rank from a dropdown menu.
 ---
 
-> The **Staff Panel** module allows you to create a structured staff database that displays staff members, their ranks, and timezones in an easy-to-read panel.
 
-> Difference from the [Staff List](stafflist.mdx): Staff Panel is more detailed. You can view individual staff member information, including introductions, while the Staff List is a simple list of staff members and their ranks.
+<Tabs>
+  <Tab title="Introductions">
+     > You can run /staff introduction where as a staff you can set your little introduction.
 
----
+  </Tab>
 
-## Enabling the Staff Panel
 
-1. Ensure the **Staff Panel** module is enabled.
-2. Run `/config` and select **Staff Panel**.
-3. (Optional) Customize the embed to match your server’s theme.
+    <Tab title="Timezone">
+        > While running /staff add you can also add an option for what timezone the staff member is.
 
----
+    </Tab>
 
-## Setting Up the Staff Database
+</Tabs>
 
-<AccordionGroup>
-  <Accordion title="/staff add">
-    Adds a staff member to the database under a specific rank.
-
-    **Usage:**  
-    `/staff add [staff] [rank] [timezone]`
-  </Accordion>
-
-  <Accordion title="/staff remove">
-    Removes a staff member from the staff panel.
-  </Accordion>
-
-  <Accordion title="/staff edit">
-    Edits an existing staff member’s details.
-
-    **Usage:**  
-    `/staff edit [staff] [rank] [timezone] [introduction]`
-  </Accordion>
-
-  <Accordion title="/staff introduction">
-    Allows a staff member to set their own introduction.
-
-    > This can only be used after the user has been added to the staff database.
-
-    **Usage:**  
-    `/staff introduction [introduction]`
-  </Accordion>
-
-  <Accordion title="/staff view">
-    View detailed information about a staff member.
-
-    **Usage:**  
-    `/staff view [staff]`
-  </Accordion>
-</AccordionGroup>
-
-Next, go to the [Staff List](/modules/stafflist.mdx) to configure the staff list.
+![Staff Panel Image](https://cdn.discordapp.com/attachments/1092978456196829265/1300034942842966016/image.png?ex=671f5f63&is=671e0de3&hm=c5dd17ab34d0fd535a9db101374b07d5d8694d718e2f06acbf738eb4bba4239f&)

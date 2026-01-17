@@ -1,56 +1,30 @@
 ---
 title: Tickets
-description: Create and manage support tickets for your server using Astro Birb.
+description: Create and manage tickets for your server using Astro Birb.
 ---
 
-> The **Tickets** module provides an organized system for handling user inquiries, feedback, and issues.  
-> It streamlines communication between staff and users by keeping conversations structured and easy to manage.
+> The Tickets module provides an organized and efficient system for handling user inquiries, feedback, and issues. This feature streamlines communication between staff and users, ensuring that all concerns are addressed promptly and effectively.
 
-## How Tickets Work
-
-Tickets are created using **panels** that users can interact with.
-
-- Panels can be **nested**, meaning multiple panels can exist inside a parent panel.
-- Each panel can have its own:
-  - Ticket category
-  - Staff access roles
-  - Permissions
-  - Automation settings
-
-When a user creates a ticket:
-1. A new channel is created in the configured category
-2. Staff members can join and assist the user
-3. Once resolved, the ticket can be closed and archived for reference
-
-Admins can also configure **ticket quotas** to limit how many tickets a staff member can claim at once.
 
 <AccordionGroup>
-  <Accordion title="Variables">
-    These variables can be used in ticket embeds and messages.
-
-    - `{author.mention}`: Mentions the ticket creator (e.g. @supercooluser)
-    - `{author.name}`: Display name of the ticket creator
-    - `{time.relative}`: Relative creation time (updates dynamically)
-    - `{time.absolute}`: Fixed creation timestamp
-    - `{ticket.id}`: Unique ticket ID
-  </Accordion>
+    <Accordion title="Variables">
+        - `{author.mention}` - The mention tag of the author of the ticket.
+        - `{author.name}` - The display name of the author of the ticket.
+        - `{time.relative}` - The time the ticket was created in a relative format.
+        - `{time.absolute}` - The time the ticket was created in an absolute format.
+        - `{ticket.id}` - The ID of the ticket.
+    </Accordion>
 </AccordionGroup>
 
-<AccordionGroup>
-  <Accordion title="Commands">
-    - **/ticket open**: Open a new ticket  
-    - **/ticket close**: Close a ticket  
-    - **/ticket closerequest**: Request to close a ticket  
-    - **/ticket add**: Add a user to a ticket  
-    - **/ticket remove**: Remove a user from a ticket  
-    - **/ticket rename**: Rename a ticket  
-    - **/ticket claim**: Claim a ticket  
-    - **/ticket unclaim**: Unclaim a ticket  
-    - **/ticket panel**: Send a ticket panel to a channel  
-    - **/ticket automation**: Toggle ticket automations  
-    - **/ticket blacklist**: Prevent a user from creating tickets  
-    - **/ticket unblacklist**: Allow a user to create tickets again  
-    - **/ticket stats**: View a user's ticket statistics  
-    - **/ticket leaderboard**: View the staff ticket leaderboard
-  </Accordion>
-</AccordionGroup>
+<Tabs>
+  <Tab title="Commands">
+    - **/tickets open** - Open a new ticket.
+    - **/tickets close** - Close a ticket.
+    - **/tickets add** - Add a user to a ticket.
+    - **/tickets remove** - Remove a user from a ticket.
+    - **/tickets rename** - Rename a ticket.
+    - **/tickets claim** - Claim a ticket.
+    - **/tickets unclaim** - Unclaim a ticket.
+
+  </Tab>
+</Tabs>
