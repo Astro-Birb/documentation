@@ -77,7 +77,6 @@
         "modules/staffdb",
         "modules/stafflist",
         "modules/tickets"
-        
        ]
     }
   ],
