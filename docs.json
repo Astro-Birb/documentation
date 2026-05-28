@@ -18,15 +18,14 @@
             "group": "Get Started",
             "pages": [
               "quickstart/introduction",
-              "quickstart/get-started"
+              "quickstart/quickstart"
             ]
           },
           {
-            "group": "Configuration",
+            "group": "Foundations",
             "pages": [
-              "configuration/permissions",
-              "configuration/variables",
-              "configuration/integration"
+              "foundations/permissions",
+              "foundations/variables"
             ]
           },
           {
@@ -44,6 +43,12 @@
               "modules/staffdb",
               "modules/stafflist",
               "modules/tickets"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/integration"
             ]
           },
           {
