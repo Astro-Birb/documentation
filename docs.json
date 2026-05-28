@@ -1,0 +1,104 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Astro Birb",
+  "colors": {
+    "primary": "#5b65e8",
+    "light": "#5b65e8",
+    "dark": "#5b65e8"
+  },
+  "favicon": "/logo/astro-logo.svg",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "quickstart/introduction",
+              "quickstart/get-started"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/permissions",
+              "configuration/variables",
+              "configuration/integration"
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": [
+              "modules/infractions",
+              "modules/promotions",
+              "modules/quota",
+              "modules/feedback",
+              "modules/loa",
+              "modules/suggestions",
+              "modules/modmail",
+              "modules/responder",
+              "modules/qotd",
+              "modules/staffdb",
+              "modules/stafflist",
+              "modules/tickets"
+            ]
+          },
+          {
+            "group": "Extras",
+            "pages": [
+              "extras/bughunting"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Support Server",
+          "href": "https://astrobirb.dev/support",
+          "icon": "Discord"
+        },
+        {
+          "anchor": "Website",
+          "href": "https://astrobirb.dev",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/astro-logo.svg",
+    "dark": "/logo/astro-logo.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "https://astrobirb.dev"
+      },
+      {
+        "label": "Status",
+        "href": "https://status.astrobirb.dev"
+      },
+      {
+        "label": "Support",
+        "href": "https://astrobirb.dev/support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Invite",
+      "href": "https://discord.com/api/oauth2/authorize?client_id=1113245569490616400&permissions=429765553360&scope=bot%20applications.commands"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Astro-Birb",
+      "discord": "https://discord.gg/DhWdgfh3hN"
+    }
+  }
+}
