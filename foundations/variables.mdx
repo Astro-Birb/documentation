@@ -1,7 +1,11 @@
 ---
 title: Variables
-description: 
+description: A list of variables you can use in templates or messages.
 ---
+
+When you are editing messages, custom commands or auto responder rules, you can add custom variables, which will
+dynamically adjust to reflect real data when you are using these in real commands. Below is a list of the variables
+that you can use in these different sections.
 
 <Tabs>
     <Tab title="Customisation">
@@ -14,8 +18,6 @@ description:
         - `{staff.name}`: The display name of the staff member involved.
         - `{staff.mention}`: The mention tag of the staff member involved.
         - `{expiration}`: Shows the expiration for infractions. If there isn't one it'll return "N/A"
-
-        These placeholders allow for dynamic information to be inserted into notifications, records, or communications regarding staff actions, promoting clarity and accountability within the system.
     </Tab>
     <Tab title="Custom Commands">
         - `{channel.mention}`: Mentions the channel where the custom command is sent.
@@ -48,3 +50,5 @@ description:
         - `{author.name}`: The name of the person using the command.
     </Tab>
 </Tabs>
+
+<Note>This list is not continually updated, so may be out of date.</Note>

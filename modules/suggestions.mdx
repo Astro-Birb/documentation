@@ -1,20 +1,28 @@
 ---
 title: Suggestions
-description: Collect suggestions from server members to improve your community.
+description: Collect suggestions from server members
 ---
 
-> The **Suggestions** module allows server members to submit ideas and feedback, helping you identify areas for improvement and new features for your server.
+The **suggestions** module allows your members to submit their ideas, feedback and suggestions for your server. You need
+to configure a suggestions channel for your members to allow suggestions to be sent for you to review.
 
-## Options
+## Configuration Options
 
-- **Suggestions Channel**  
-  The channel where all submitted suggestions are posted.
+<ParamField path="channel" type="channel" required>
+  The channel to send user suggestions to.
+</ParamField>
 
+
+## Commands
 <AccordionGroup>
-  <Accordion title="Commands">
-    - **/suggest**: Submit a suggestion  
-      
-      **Usage:**  
-      `/suggest [suggestion] [image]`
+  <Accordion title="/suggest">
+      Submit a suggestion to the configured suggestions channel for the server.
+      #### Parameters
+      <ParamField path="suggestion" type="string" required>
+          The suggestion that you'd like to make.
+      </ParamField>
+      <ParamField path="image" type="image">
+          An optional image can be attached to the suggestion
+      </ParamField>
   </Accordion>
 </AccordionGroup>

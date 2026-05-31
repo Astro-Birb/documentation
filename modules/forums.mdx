@@ -1,22 +1,65 @@
 ---
 title: Forums
-description: A way to automatically send a message when a forum post is created.
+description: Automatically send a message when a forum post is created
 ---
 
-> Use the **Forums** module to automatically send a customizable embed message whenever a new forum post is created in your Discord server.
+The **forums** module automatically sends a message when a new forum post is created by a user. You can configure it
+by selecting the module in `/config` and then selecting Manage Forums. From there you can create a new forum message,
+edit an existing one or remove a forum message.
 
-<AccordionGroup>
-  <Accordion title="Customize Embed">
-    Allows full customization of the forum embed to your liking. You can modify the following fields:
-    - Button
-    - Title
-    - Description
-    - Thumbnail
-    - Image
-    - Author
-    - Color
-    - Fields
-    - Ping
-    - Forums Channel
-  </Accordion>
-</AccordionGroup>
+## Configuration Options
+
+<ParamField path="button" type="button" required>
+    <ParamField path="label" type="string">
+        Label for the button
+    </ParamField>
+    <ParamField path="emoji" type="string">
+        Emoji for the button, in snowflake format, e.g "\<:Alert:1208972002803712000>"
+    </ParamField>
+    <ParamField path="color" type="blue/red/gray/green" default="gray">
+        What color is the button?
+    </ParamField>
+    <ParamField path="command" type="string" required>
+        Custom command to execute when pressed
+    </ParamField>
+</ParamField>
+<ParamField path="title" type="string" >
+    A title for the embed
+</ParamField>
+<ParamField path="description" type="string" required>
+    A description/body text for the embed
+</ParamField>
+<ParamField path="thumbnail" type="string">
+    A link to a thumbnail image for the embed
+</ParamField>
+<ParamField path="image" type="string">
+    A link to a larger image for the embed
+</ParamField>
+<ParamField path="author" type="author">
+    <ParamField path="name" type="string">
+        A name for the embed author
+    </ParamField>
+    <ParamField path="image" type="string">
+        A link to an author image for the embed
+    </ParamField>
+</ParamField>
+<ParamField path="color" type="string">
+    A hex color for the embed
+</ParamField>
+<ParamField path="fields" type="field">
+    <ParamField path="name" type="string">
+        A field name
+    </ParamField>
+    <ParamField path="value" type="string">
+        A field value
+    </ParamField>
+    <ParamField path="inline" type="boolean" default="false">
+        Whether or not to make this field inline with other fields
+    </ParamField>
+</ParamField>
+<ParamField path="ping" type="role">
+    Roles to ping as part of the embed
+</ParamField>
+<ParamField path="channel" type="channel" required>
+    Channel to monitor and post this embed in when forum posts are created
+</ParamField>
