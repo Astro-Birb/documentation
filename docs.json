@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "luma",
   "name": "Astro Birb",
   "colors": {
     "primary": "#5b65e8",
@@ -42,7 +42,8 @@
               "modules/qotd",
               "modules/staffdb",
               "modules/stafflist",
-              "modules/tickets"
+              "modules/tickets",
+              "modules/forums"
             ]
           },
           {

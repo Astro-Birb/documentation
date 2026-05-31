@@ -1,22 +1,51 @@
 ---
 title: Staff Feedback
-description: Let members give rating of your staff members using Astro Birb.
+description: Collect feedback on your staff members
 ---
 
-> It enables you to collect feedback directly from your members, providing insights into areas of success and those requiring enhancement. This module is an essential tool for fostering a culture of continuous improvement and open communication within your team.
+The **feedback** module allows your members to submit their feedback, on your staff members. You need to configure
+a feedback channel where feedback is sent to, this can be public or private, for this module to function correctly.
 
+## Configuration Options
+
+<ParamField path="channel" type="channel" required>
+    The channel to send staff feedback to
+</ParamField>
+<ParamField path="multiple feedback" type="boolean" default="false">
+    Whether people should be able to provide feedback about the same staff member more than once
+</ParamField>
+
+
+## Commands
 <AccordionGroup>
-  <Accordion title="Options">
-    - **Feedback Channel**  
-      Designate a specific channel where feedback notifications will be sent.
-
-    - **Preferences**
-      - **Multiple Feedbacks** — Allow members to submit multiple feedback entries for the same staff member.
-  </Accordion>
-
-  <Accordion title="Commands">
-    - **/feedback give** - Give a staff member feedback.
-    - **/feedback rating** - View feedback ratings for a staff member.
-    - **/feedback remove** - Remove feedback from a staff member.
-  </Accordion>
+    <Accordion title="/feedback give">
+        Give feedback on a staff member's performance
+        #### Parameters
+        <ParamField path="staff" type="user" required>
+            The staff member you are giving feedback on
+        </ParamField>
+        <ParamField path="rating" type="number" required>
+            A rating from 1 to 10 for the staff member
+        </ParamField>
+        <ParamField path="feedback" type="string" required>
+            Your feedback for the staff member
+        </ParamField>
+    </Accordion>
+    <Accordion title="/feedback rating">
+        View feedback that staff members have received
+        #### Parameters
+        <ParamField path="staff" type="user" required>
+            The staff member you are viewing feedback for
+        </ParamField>
+        <ParamField path="scope" type="global/server" required>
+            Whether to view their global feedback or just this server
+        </ParamField>
+    </Accordion>
+    <Accordion title="/feedback remove">
+        Remove feedback from a staff member
+        #### Parameters
+        <ParamField path="id" type="number" required>
+            The ID of the feedback to remove
+        </ParamField>
+    </Accordion>
 </AccordionGroup>
