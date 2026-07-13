@@ -1,5 +1,5 @@
 {
-  "theme": "mint",
+  "theme": "maple",
   "name": "Birb",
   "colors": {
     "primary": "#5b65e8",
@@ -8,8 +8,8 @@
   },
   "favicon": "/logo/astro-logo.svg",
   "logo": {
-    "light": "/logo/astro-logo.svg",
-    "dark": "/logo/astro-logo.svg"
+    "light": "/images/birb-logo.svg",
+    "dark": "/images/birb-logo.svg"
   },
   "navbar": {
     "links": [
