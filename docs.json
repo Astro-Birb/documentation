@@ -1,6 +1,6 @@
 {
   "theme": "mint",
-  "name": "Astro Birb",
+  "name": "Birb",
   "colors": {
     "primary": "#5b65e8",
     "light": "#5b65e8",
@@ -63,8 +63,35 @@
       },
       {
         "product": "Website",
-        "icon": "browsers"
+        "icon": "browsers",
+        "groups": [
+          {
+            "group": "Modules",
+            "pages": [
+              "infractions-1"
+            ]
+          }
+        ]
       }
     ]
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "codeblocks": "dark"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "contextual": {
+    "options": [
+      "chatgpt"
+    ],
+    "display": "header"
+  },
+  "background": {
+    "decoration": "gradient"
   }
 }
