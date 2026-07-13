@@ -69,7 +69,8 @@
             "group": "Pages",
             "pages": [
               "infractions-website",
-              "promotions"
+              "promotions",
+              "tickets"
             ]
           }
         ]
