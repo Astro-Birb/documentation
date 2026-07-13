@@ -1,0 +1,70 @@
+{
+  "theme": "mint",
+  "name": "Astro Birb",
+  "colors": {
+    "primary": "#5b65e8",
+    "light": "#5b65e8",
+    "dark": "#5b65e8"
+  },
+  "favicon": "/logo/astro-logo.svg",
+  "logo": {
+    "light": "/logo/astro-logo.svg",
+    "dark": "/logo/astro-logo.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "https://astrobirb.dev"
+      },
+      {
+        "label": "Status",
+        "href": "https://status.astrobirb.dev"
+      },
+      {
+        "label": "Support",
+        "href": "https://astrobirb.dev/support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Invite",
+      "href": "https://discord.com/api/oauth2/authorize?client_id=1113245569490616400&permissions=429765553360&scope=bot%20applications.commands"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Astro-Birb",
+      "discord": "https://discord.gg/DhWdgfh3hN"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Support Server",
+          "icon": "Discord",
+          "href": "https://astrobirb.dev/support"
+        }
+      ]
+    },
+    "products": [
+      {
+        "product": "Bot",
+        "icon": "robot",
+        "groups": [
+          {
+            "group": "Modules",
+            "pages": [
+              "infractions"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Website",
+        "icon": "browsers"
+      }
+    ]
+  }
+}
