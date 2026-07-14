@@ -54,14 +54,16 @@
             "pages": [
               "bot"
             ],
-            "icon": "book-open-alt"
+            "icon": "book-open-alt",
+            "expanded": true
           },
           {
             "group": "Features",
             "pages": [
               "infractions-bot"
             ],
-            "icon": "puzzle-piece"
+            "icon": "puzzle-piece",
+            "expanded": true
           }
         ]
       },
@@ -82,7 +84,8 @@
               "infractions-website",
               "promotions",
               "tickets"
-            ]
+            ],
+            "expanded": true
           }
         ]
       }
