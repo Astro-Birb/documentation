@@ -37,18 +37,11 @@
         "icon": "home-alt",
         "pages": [
           {
-            "group": "Overview & Help",
+            "group": "Overview",
             "icon": "book-open-cover",
             "pages": [
               "Birb",
               "frequent-questions"
-            ]
-          },
-          {
-            "group": "Subscriptions",
-            "icon": "patreon",
-            "pages": [
-              "frequently-asked-patreon"
             ]
           }
         ]
