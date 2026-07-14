@@ -35,14 +35,15 @@
       {
         "product": "General",
         "icon": "home-alt",
-        "groups": [
+        "pages": [
           {
             "group": "Overview",
+            "icon": "book-open-cover",
             "pages": [
               "Birb"
-            ],
-            "icon": "book-open-cover"
-          }
+            ]
+          },
+          "subscriptions"
         ]
       },
       {
