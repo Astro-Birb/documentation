@@ -31,15 +31,6 @@
     }
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Support Server",
-          "icon": "Discord",
-          "href": "https://astrobirb.dev/support"
-        }
-      ]
-    },
     "products": [
       {
         "product": "General",
