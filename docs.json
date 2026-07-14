@@ -37,7 +37,7 @@
         "icon": "home-alt",
         "pages": [
           {
-            "group": "Overview",
+            "group": "Overview & Help",
             "icon": "book-open-cover",
             "pages": [
               "Birb",
@@ -50,11 +50,6 @@
             "pages": [
               "frequently-asked-patreon"
             ]
-          },
-          {
-            "group": "Help",
-            "icon": "hands-helping",
-            "pages": []
           }
         ]
       },
