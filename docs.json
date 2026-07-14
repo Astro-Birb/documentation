@@ -14,16 +14,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Home",
+        "label": "Website",
         "href": "https://astrobirb.dev"
-      },
-      {
-        "label": "Status",
-        "href": "https://status.astrobirb.dev"
-      },
-      {
-        "label": "Support",
-        "href": "https://astrobirb.dev/support"
       }
     ],
     "primary": {
