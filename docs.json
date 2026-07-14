@@ -49,6 +49,12 @@
         "icon": "user-robot",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "bot"
+            ]
+          },
+          {
             "group": "Modules",
             "pages": [
               "infractions-bot"
@@ -60,6 +66,12 @@
         "product": "Website",
         "icon": "desktop",
         "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "website"
+            ]
+          },
           {
             "group": "Pages",
             "pages": [
