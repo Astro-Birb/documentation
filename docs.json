@@ -40,7 +40,11 @@
             "group": "Overview",
             "icon": "book-open-cover",
             "pages": [
-              "Birb"
+              "Birb",
+              {
+                "group": "Untitled Group",
+                "pages": []
+              }
             ]
           },
           {
@@ -48,6 +52,13 @@
             "icon": "patreon",
             "pages": [
               "frequently-asked-patreon"
+            ]
+          },
+          {
+            "group": "Help",
+            "icon": "hands-helping",
+            "pages": [
+              "frequent-questions"
             ]
           }
         ]
