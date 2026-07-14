@@ -87,7 +87,8 @@
               "promotions",
               "tickets"
             ],
-            "expanded": true
+            "expanded": true,
+            "icon": "puzzle-piece"
           }
         ]
       }
