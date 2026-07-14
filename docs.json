@@ -61,8 +61,8 @@
           {
             "group": "Features",
             "pages": [
-              "infractions-bot",
-              "modules"
+              "modules",
+              "infractions-bot"
             ],
             "icon": "puzzle-piece",
             "expanded": true
