@@ -51,7 +51,13 @@
     "products": [
       {
         "product": "General",
-        "icon": "home-alt"
+        "icon": "home-alt",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": []
+          }
+        ]
       },
       {
         "product": "Bot",
@@ -67,7 +73,7 @@
       },
       {
         "product": "Website",
-        "icon": "browsers",
+        "icon": "desktop",
         "groups": [
           {
             "group": "Pages",
