@@ -40,7 +40,8 @@
             "group": "Overview",
             "pages": [
               "Birb"
-            ]
+            ],
+            "icon": "book-open-cover"
           }
         ]
       },
@@ -52,13 +53,15 @@
             "group": "Overview",
             "pages": [
               "bot"
-            ]
+            ],
+            "icon": "book-open-alt"
           },
           {
-            "group": "Modules",
+            "group": "Features",
             "pages": [
               "infractions-bot"
-            ]
+            ],
+            "icon": "puzzle-piece"
           }
         ]
       },
@@ -70,10 +73,11 @@
             "group": "Overview",
             "pages": [
               "website"
-            ]
+            ],
+            "icon": "book-open-cover"
           },
           {
-            "group": "Pages",
+            "group": "Features",
             "pages": [
               "infractions-website",
               "promotions",
