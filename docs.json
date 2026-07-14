@@ -50,6 +50,9 @@
     },
     "products": [
       {
+        "product": "General"
+      },
+      {
         "product": "Bot",
         "icon": "user-robot",
         "groups": [
