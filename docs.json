@@ -41,10 +41,7 @@
             "icon": "book-open-cover",
             "pages": [
               "Birb",
-              {
-                "group": "Untitled Group",
-                "pages": []
-              }
+              "frequent-questions"
             ]
           },
           {
@@ -57,9 +54,7 @@
           {
             "group": "Help",
             "icon": "hands-helping",
-            "pages": [
-              "frequent-questions"
-            ]
+            "pages": []
           }
         ]
       },
