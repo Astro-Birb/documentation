@@ -42,6 +42,13 @@
             "pages": [
               "Birb"
             ]
+          },
+          {
+            "group": "Subscriptions",
+            "icon": "patreon",
+            "pages": [
+              "untitled-page"
+            ]
           }
         ]
       },
