@@ -50,7 +50,8 @@
     },
     "products": [
       {
-        "product": "General"
+        "product": "General",
+        "icon": "home-alt"
       },
       {
         "product": "Bot",
