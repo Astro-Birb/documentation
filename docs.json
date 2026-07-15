@@ -53,7 +53,8 @@
           {
             "group": "Overview",
             "pages": [
-              "bot"
+              "bot",
+              "setup"
             ],
             "icon": "book-open-alt",
             "expanded": true
