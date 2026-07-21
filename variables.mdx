@@ -1,0 +1,136 @@
+---
+title: "Variables"
+icon: "square-root-variable"
+description: "These are the variables for custom embed handling."
+---
+
+## Global Variables
+
+<Tabs>
+  <Tab title="Guild">
+    | Variable | Description |
+    | --- | --- |
+    | \`{guild.name}\` | Server name |
+    | \`{guild.id}\` | Server ID |
+    | \`{guild.icon}\` | Server icon URL |
+    | \`{guild.banner}\` | Server banner URL |
+    | \`{guild.member\_count}\` | Member count |
+    | \`{guild.created\_at}\` | Server creation date |
+    | \`{guild.description}\` | Server description |
+    | \`{guild.boost\_tier}\` | Boost/premium tier |
+    | \`{guild.boost\_count}\` | Number of boosts |
+    | \`{guild.role\_count}\` | Number of roles |
+    | \`{guild.channel\_count}\` | Number of channels |
+    | \`{guild.emoji\_count}\` | Number of emojis |
+    | \`{guild.verification\_level}\` | Verification level |
+    | \`{guild.vanity\_url}\` | Vanity invite URL |
+  </Tab>
+  <Tab title="Roles">
+    | Variable | Description |
+    | --- | --- |
+    | \`{X.mention}\` | Role mention |
+    | \`{X.name}\` | Role name |
+    | \`{X.id}\` | Role ID |
+    | \`{X.color}\` | Role color |
+    | \`{X.position}\` | Role hierarchy position |
+    | \`{X.member\_count}\` | Number of members with the role |
+    | \`{X.hoisted}\` | Whether the role is hoisted (\`Yes\`/\`No\`) |
+    | \`{X.mentionable}\` | Whether the role is mentionable (\`Yes\`/\`No\`) |
+    | \`{X.created\_at}\` | Role creation date |
+  </Tab>
+  <Tab title="Members" icon="person" iconType="duotone">
+    | Variable | Description |
+    | --- | --- |
+    | \`{X.mention}\` | Member mention |
+    | \`{X.display\_name}\` | Member display name |
+    | \`{X.id}\` | Member ID |
+    | \`{X.name}\` | Member global name |
+    | \`{X.tag}\` | Member's primary guild tag |
+    | \`{X.avatar}\` | Avatar URL |
+    | \`{X.created\_at}\` | Account creation date |
+    | \`{X.joined\_at}\` | Server join date |
+    | \`{X.top\_role}\` | Member's highest role |
+    | \`{X.role\_count}\` | Number of roles (excluding @everyone) |
+    | \`{X.boosting}\` | Whether boosting the server (\`Yes\`/\`No\`) |
+    | \`{X.bot}\` | Whether the member is a bot (\`Yes\`/\`No\`) |
+    | \`{X.status}\` | Online status |
+  </Tab>
+  <Tab title="Channel">
+    | Variable | Description |
+    | --- | --- |
+    | \`{channel.name}\` | Channel name |
+    | \`{channel.id}\` | Channel ID |
+    | \`{channel.mention}\` | Channel mention |
+    | \`{channel.topic}\` | Channel topic |
+    | \`{channel.category}\` | Parent category name |
+    | \`{channel.jump\_url}\` | Link to jump to the channel |
+    | \`{channel.nsfw}\` | Whether the channel is NSFW |
+    | \`{channel.slowmode}\` | Slowmode delay |
+    | \`{channel.position}\` | Channel position |
+    | \`{channel.created\_at}\` | Channel creation date |
+  </Tab>
+  <Tab title="Tools">
+    | Variable | Description |
+    | --- | --- |
+    | \`{date}\` | Current date (\`YYYY-MM-DD\`) |
+    | \`{time}\` | Current time (\`HH:MM:SS\`) |
+    | \`{year}\` | Current year |
+    | \`{timestamp}\` | Current Unix timestamp |
+    | \`{timestamp.short\_time}\` | Discord short time timestamp |
+    | \`{timestamp.long\_time}\` | Discord long time timestamp |
+    | \`{timestamp.short\_date}\` | Discord short date timestamp |
+    | \`{timestamp.long\_date}\` | Discord long date timestamp |
+    | \`{timestamp.short\_datetime}\` | Discord short date\+time timestamp |
+    | \`{timestamp.long\_datetime}\` | Discord long date\+time timestamp |
+    | \`{timestamp.relative}\` | Discord relative timestamp |
+    | \`{newline}\` | Line break |
+    | \`{blank}\` | Zero-width space |
+  </Tab>
+</Tabs>
+
+## Module Variables
+
+<Tabs>
+  <Tab title="Infraction">
+    | Variable | Description |
+    | --- | --- |
+    | `{action}` | Infraction action type |
+    | `{reason}` | Infraction reason |
+    | `{notes}` | Infraction notes |
+    | `{expiration}` | Expiration date (relative) |
+    | `{new.x}` | X applies to any variable from the roles section. |
+    | `{previous.x}` | X applies to any variable from the roles section. |
+    | `{staff.x}` | X applies to any variable from the members section. |
+    | `{author.x}` | X applies to any variable from the members section. |
+  </Tab>
+  <Tab title="Promotion">
+    | Variable | Description |
+    | --- | --- |
+    | `{newrank}` | Mention of the new rank role |
+    | `{previous_rank}` | Mention of the previous rank role |
+    | `{reason}` | Promotion reason |
+    | `{notes}` | Promotion notes |
+    | `{promotion.id}` | Promotion's random string ID |
+    | `{new.x}` | X applies to any variable from the roles section. |
+    | `{previous.x}` | X applies to any variable from the roles section. |
+  </Tab>
+  <Tab title="Feedback">
+    | Variable | Description |
+    | --- | --- |
+    | `{feedback}` | Feedback |
+    | `{rating}` | Feedback rating |
+  </Tab>
+  <Tab title="Suggestions">
+    | Variable | Description |
+    | --- | --- |
+    | `{suggestion}` | Suggestion text |
+    | `{image}` | Suggestion image URL |
+    | `{upvotes}` | Number of upvotes |
+    | `{downvoters}` | Number of downvotes |
+    | `{reason}` | Suggestion reason |
+  </Tab>
+</Tabs>
+
+## `X` Variables
+
+X marks a placeholder prefix, replace it with the prefix given in each module (new, previous, staff, author, etc.) to form the actual variable, e.g. `{X.mention}` → `{staff.mention}`.

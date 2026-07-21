@@ -54,7 +54,8 @@
             "group": "Overview",
             "pages": [
               "bot",
-              "setup"
+              "setup",
+              "variables"
             ],
             "icon": "book-open-alt",
             "expanded": true
